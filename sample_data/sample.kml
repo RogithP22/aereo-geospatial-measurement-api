@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Aereo Sample Features</name>
+    <Placemark>
+      <name>Sample Square Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.0,11.0,0 77.001,11.0,0 77.001,11.001,0 77.0,11.001,0 77.0,11.0,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sample LineString</name>
+      <LineString>
+        <coordinates>
+          77.02,11.02,0 77.03,11.03,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
